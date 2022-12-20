@@ -12,7 +12,7 @@ init()
     level.huddiscord.y = 1;
     level.huddiscord.alignx = "center";
     level.huddiscord.alpha = 0.5;
-    level.huddiscord settext("^8Discord.io/ClippyMadeCoomersWhatItIs");  //Replace TheCoomersSuck for your own discord link
+    level.huddiscord settext("^8ClippyMadeCoomersWhatItIs");  //Replace ClippyMadeCoomersWhatItIs for your own discord link or whatever you want
     level.huddiscord.archived = true;
 	//
     
@@ -35,7 +35,6 @@ init()
 	level.ui_better_purple = (0.75, 0, 0.75);
 	//
 	
-	//linedoublesided
 	precacheshader("hud_killstreak_highlight");
 	setdvar("g_hardcore", 1);
 	setdvar("g_teamicon_axis", "");

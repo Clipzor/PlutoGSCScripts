@@ -4,6 +4,8 @@
 
 init()
 {
+	// I never ended up using this as it was a bit much, but it was mainly just as a test to see if it could be done and was fun to think of aids effects lol
+
 	// use this with caution, it absolutely does shit effects to people that u add in the list if they use voicechat
 	// this is mainly for if u dont want to ban people for using voicechat wrong. but it pretty much makes it unplayable for them
 

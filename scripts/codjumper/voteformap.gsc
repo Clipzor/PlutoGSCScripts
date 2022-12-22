@@ -173,12 +173,12 @@ msgwait()
 				if(isdefined(level.tttplayer1) || isdefined(level.tttplayer2))
                 {
 					if(player == level.tttplayer1 || player == level.tttplayer2)
-                    level thread scripts\codjumper\tictactoe::endgame("force");
+                    level thread scripts\codjumper\tictactoe::endtttgame("force");
 					else
 					player IPrintLnBold("^1You Can't End Games You Aren't A Part Of");
 				}
 				else if(level.TicTacToe == true && !isdefined(level.tttplayer1) && !isdefined(level.tttplayer2))
-				level thread scripts\codjumper\tictactoe::endgame("force");
+				level thread scripts\codjumper\tictactoe::endtttgame("force");
             break;
 
 			case "-top": // teleports player to top of barriers

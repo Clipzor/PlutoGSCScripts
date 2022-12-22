@@ -176,27 +176,27 @@ monitorchoice(number)
 checkscore(winning)
 {
 	if((level.choice[1].winteam == winning && level.choice[2].winteam == winning && level.choice[3].winteam == winning))
-	thread endgame(winning);
+	thread endtttgame(winning);
 	else if((level.choice[4].winteam == winning && level.choice[5].winteam == winning && level.choice[6].winteam == winning))
-	thread endgame(winning);
+	thread endtttgame(winning);
 	else if((level.choice[7].winteam == winning && level.choice[8].winteam == winning && level.choice[9].winteam == winning))
-	thread endgame(winning);
+	thread endtttgame(winning);
 	else if((level.choice[1].winteam == winning && level.choice[4].winteam == winning && level.choice[7].winteam == winning))
-	thread endgame(winning);
+	thread endtttgame(winning);
 	else if((level.choice[2].winteam == winning && level.choice[5].winteam == winning && level.choice[8].winteam == winning))
-	thread endgame(winning);
+	thread endtttgame(winning);
 	else if((level.choice[3].winteam == winning && level.choice[6].winteam == winning && level.choice[9].winteam == winning))
-	thread endgame(winning);
+	thread endtttgame(winning);
 	else if((level.choice[1].winteam == winning && level.choice[5].winteam == winning && level.choice[9].winteam == winning))
-	thread endgame(winning);
+	thread endtttgame(winning);
 	else if((level.choice[7].winteam == winning && level.choice[5].winteam == winning && level.choice[3].winteam == winning))
-	thread endgame(winning);
+	thread endtttgame(winning);
 
 	if(level.numchosen >= 9)
-	thread endgame("tie");
+	thread endtttgame("tie");
 }
 
-endgame(winner)
+endtttgame(winner)
 {
 	if(winner == "player1")
 	{
